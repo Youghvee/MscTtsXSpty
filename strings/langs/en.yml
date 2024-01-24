@@ -264,6 +264,8 @@ H_B_3 : "Perintah Bot"
 H_B_4 : "Perintah Ekstra"
 H_B_5 : "⚙️ Close"
 H_B_6 : "Perintah SudoUser"
+H_B_7 : "Modul"
+H_B_8 : "Donasi"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
