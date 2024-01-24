@@ -88,6 +88,11 @@ start_5 : "Anggota Pengguna Sudo {0}[{1}] baru saja bergabung dengan obrolan And
 start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **grup** Anda menjadi **grup super** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat grup super?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat** sekali."
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam daftar hitam oleh Bot. Silakan minta SudoUser untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
+# Help
+help_1 : "**Bantuan Perintah** sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ ᴀᴅᴀ ᴅɪʙᴀᴡᴀʜ Jɪᴋᴀ ᴍᴀsɪʜ ʙᴜᴛᴜʜ ʙᴀɴᴛᴜᴀɴ sɪʟᴀʜᴋᴀɴ sᴇɢᴀʀᴀ ʜᴜʙᴜɴɢɪ ᴅᴇᴠᴇʟᴏᴘᴇʀ @arlo_zayden ʙᴏᴛ ᴀᴛᴀᴜ ᴄᴇᴋ ᴋᴇ @SpotifyStreamMusic"
+help_2 : "• ʜᴇʟᴩ •"
+
+
 # Pengaturan
 setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih fungsi tombol dari bawah yang ingin Anda edit atau ubah.**"
 setting_3 : "⁉️ Apa Ini?\n\n1) Langsung: Memutar kueri penelusuran secara langsung. Gunakan -v untuk memutar video dalam mode langsung.\n\n2) Sebaris: Mengembalikan Tombol Markup Sebaris untuk memilih antara video & audio."
