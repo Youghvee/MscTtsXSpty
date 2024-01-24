@@ -52,7 +52,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="AllBot", url=f"https://t.me/SpotifyStreamMusic/64"
+                text="Channels", url=f"https://t.me/SpotifyStreamMusic/64"
             ),
         ],
         [
