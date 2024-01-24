@@ -101,7 +101,7 @@ def PlayWrapper(command):
                 sub = await app.export_chat_invite_link(MUST_JOIN)
                 kontol = InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("📝 JOIN DULU", url=sub)]
+                        [InlineKeyboardButton("📑 Gabung Dulu", url=sub)]
                     ]
                 )
                 return await message.reply_text(_["force_sub"].format(message.from_user.mention), reply_markup=kontol)
