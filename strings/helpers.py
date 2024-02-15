@@ -187,7 +187,7 @@ HELP_8 = """<u>ꜰᴇᴀᴛᴜʀᴇ ꜰᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄ�
 <u>Thank you for your help, greetings team: </u>
 1. @Arlo4u
 2. @Usern4meDoesNotExist404
-3. @UserDoestExist404
-4 @Hfivxssub
-Channels : @SpotifyStreamMusic
+3. @Usern4meDoestExist404
+4. @Hfivxssub
+Channels : @TeamAllBots 
 """
