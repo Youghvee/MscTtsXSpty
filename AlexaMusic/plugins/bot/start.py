@@ -280,7 +280,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9006f077e6596772e5864.jpg",
+        photo=f"https://mallucampaign.in/images/img_1708035680.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\nᴛʜᴀɴᴋs ᴛᴏ ᴛᴇᴀᴍ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┗━━━━━━━━━━━━━━━━━┛\n\nɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Usern4meDoesNotExist404) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("Channels", url=f"https://t.me/SpotifyStreamMusic/64")]]
@@ -292,13 +292,13 @@ async def alive(client, message: Message):
 async def verify(client, message: Message):
     if await is_served_user(message.from_user.id):
         await message.reply_text(
-            text="ᴅᴇᴀʀ ʏᴏᴜ ᴀʀᴇ ᴀʟʀᴇᴀᴅʏ ᴠᴇʀɪғɪᴇᴅ",
+            text="Kamu sudah melakukan verifikasi!",
         )
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9006f077e6596772e5864.jpg",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n**ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴ** \nɴᴏᴡ ʏᴏᴜ ᴀʀᴇ ᴠᴇʀɪғɪᴇᴅ ᴍᴇᴍʙᴇʀ ɢᴏ ʙᴀᴄᴋ ᴀɴᴅ ᴇɴᴊᴏʏ ᴏᴜʀ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ..\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
+        photo=f"https://mallucampaign.in/images/img_1708035680.jpg",
+        caption=f"""━━━━━━━━━━━━━━━━━\nSelamat sekarang kamu sudah menjadi bagian dari bot kami, silahkan play music/vidio kamu kembali!""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("Support", url=f"https://t.me/SpotifyStreamMusic/64")]]
         ),
