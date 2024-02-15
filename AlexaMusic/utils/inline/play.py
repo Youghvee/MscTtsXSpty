@@ -1,14 +1,3 @@
-# Copyright (C) 2024 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >
-# Subscribe On YT < Jankari Ki Duniya >. All rights reserved. © Alexa © Yukki.
-
-""""
-TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2024 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want or you can collabe if you have new ideas.
-"""
-
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import SUPPORT_GROUP, SUPPORT_CHANNEL
@@ -52,7 +41,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="Channels", url=f"https://t.me/SpotifyStreamMusic/64"
+                text="Owners", url=f"https://t.me/arlozayden"
             ),
         ],
         [
@@ -60,13 +49,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="Support", url=f"https://t.me/SpotifyStreamMusic"),
+            InlineKeyboardButton(text="Support", url=f"https://t.me/JooxSupport"),
         ],
         [
-            InlineKeyboardButton(
-                text=f"String",
-                url=f"https://t.me/StringSessionUbot_bot?start=start",
-            )
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"
+            ),
         ],
     ]
     return buttons
@@ -86,21 +73,19 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="Developer", url=f"https://t.me/Usern4meDoesNotExist404"),
+            InlineKeyboardButton(text="Owners", url=f"https://t.me/arlozayden"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="Support", url=f"https://t.me/SpotifyStreamMusic"),
+            InlineKeyboardButton(text="Support", url=f"https://t.me/JooxSupport"),
         ],
     ]
     return buttons
-
-
-## Inline without Timer Bar
-
+    
+## Inline without Timer close
 
 def stream_markup(_, videoid, chat_id):
     buttons = [
@@ -109,14 +94,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="Info", url=f"https://t.me/SpotifyStreamMusic/64"),
+            InlineKeyboardButton(text="Info", url=f"https://t.me/JooxSupport"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="Developer", url=f"https://t.me/Usern4meDoesNotExist404"),
+            InlineKeyboardButton(text="Owners", url=f"https://t.me/arlozayden"),
         ],
     ]
     return buttons
@@ -137,7 +122,7 @@ def telegram_markup(_, chat_id):
 
 ## By Anon
 close_keyboard = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="〆 ᴄʟᴏsᴇ 〆", callback_data="close")]]
+    [[InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close")]]
 )
 
 ## Search Query Inline
@@ -305,7 +290,7 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="↻ ʙᴀᴄᴋ ↻",
+                text="ʙᴀᴄᴋ",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -324,14 +309,13 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="☆", callback_data=f"add_playlist {videoid}"),
+            InlineKeyboardButton(text="⟲", callback_data=f"add_playlist {videoid}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text="〆 ᴄʟᴏsᴇ 〆", callback_data=f"ADMIN CloseA|{chat_id}"
-            )
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"
+            ),
         ],
     ]
     return buttons
