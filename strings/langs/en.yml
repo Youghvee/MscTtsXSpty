@@ -89,8 +89,8 @@ start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **grup** Anda menja
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam daftar hitam oleh Bot. Silakan minta SudoUser untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "**Bantuan Perintah**semua perintah bot ada dibawah ini, jika masih butuh bantuan silahkan hubungi developer saya @arlozayden , atau bisa langsung cek ke @JooxSupport"
-help_2 : "• ʜᴇʟᴩ •"
+help_1 : "**Bantuan Perintah** semua perintah bot ada dibawah ini, jika masih butuh bantuan silahkan hubungi developer saya @arlozayden , atau bisa langsung cek ke grup atau saluran kami @JooxSupport"
+help_2 : "Bantuan"
 
 
 # Pengaturan
