@@ -63,17 +63,7 @@
         "value": "",
         "required": true      
       },
-        "AUTO_LEAVING_ASSISTANT": {
-        "description": "Di true aja ya anjing pake t kecil babi.",
-        "value": "",
-        "required": true
-      },
-        "DURATION_LIMIT": {
-        "description": "280 YA ANJNG INI BEE.",
-        "value": "",
-        "required": true
-      },
-    "buildpacks": [
+        "buildpacks": [
           {
               "url": "heroku/python"
           },
