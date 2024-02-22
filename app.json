@@ -67,12 +67,12 @@
         "description": "Di true aja ya anjing pake t kecil babi.",
         "value": "",
         "required": true
-      }
+      },
         "DURATION_LIMIT": {
         "description": "280 YA ANJNG INI BEE.",
         "value": "",
         "required": true
-     }
+      },
     "buildpacks": [
           {
               "url": "heroku/python"
@@ -82,4 +82,4 @@
           }
       ],
       "stack": "container"
-  }
+    }
