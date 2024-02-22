@@ -23,6 +23,16 @@
         "value": "7bc7d1f9b2f3d3f1bfd272db56ac0ba1",
         "required": true
       },
+        "AUTO_LEAVING_ASSISTANT": {
+        "description": "false aja ketik",
+        "value": "",
+        "required": true
+      },
+        "DURATION_LIMIT": {
+        "description": "280 aja bawang",
+        "value": "",
+        "required": true
+      },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
