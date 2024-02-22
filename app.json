@@ -39,7 +39,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
+        "description": "A Pyrogram v1 Session Get It From  Here @Session_Generator_Robot.",
         "value": "",
         "required": true
       },
@@ -57,8 +57,22 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
+      },
+        "MUST_JOIN": {
+        "description": "Pakai @ ya anjing.",
+        "value": "",
+        "required": true      
+      },
+        "AUTO_LEAVING_ASSISTANT": {
+        "description": "Di true aja ya anjing pake t kecil babi.",
+        "value": "",
+        "required": true
       }
-    },
+        "DURATION_LIMIT": {
+        "description": "280 YA ANJNG INI BEE.",
+        "value": "",
+        "required": true
+     }
     "buildpacks": [
           {
               "url": "heroku/python"
