@@ -149,7 +149,7 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** Channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke Channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Bermain
-play_1 : "**🔄 Processing!**"
+play_1 : "**Proses tunggu, sedang memutar...!**"
 play_2 : "**🏷 Mode Putar Chanell**\n\n🔄 Memproses Query... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses Query!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -159,7 +159,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang dari 1 GiB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "📀 Judul: **{0}\n\n⏰ Durasi:** {1} Menit"
+play_11 : "🎵 Judul: **{0}\n\n⚙️ Durasi:** {1} Menit"
 play_12 : "**Mode Putar Spotify**\n\nDiminta Oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta Oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda dapat menggunakan /stream untuk M3u8 atau Remote Links ."
@@ -236,41 +236,41 @@ queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n📀 Judul:** {1}\n**⏰ Dura
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # Semua Saluran Streaming
-stream_1 : "🎥 **Memulai Streaming** 💡\n\n🧸 **Diminta Oleh:** {0}\n📮 **Informasi: **[Di Sini]({1})"
+stream_1 : "🎥 **Memulai Streaming** 💡\n\n☎️ **Diminta Oleh:** {0}\n📋 **Informasi: **[Di Sini]({1})"
 stream_2 : "🎥 **Memulai Streaming melalui URL** 💡\n\n**🧸 Diminta Oleh:** {0}"
-stream_3 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** {0}\n⏰ **Durasi**: {1}\n🧸 **Diminta Oleh:** {2} "
-stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ **Durasi**: {2}\n🧸 **Diminta Oleh:** {3}"
+stream_3 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** {0}\n⏰ **Durasi**: {1}\n☎️ **Diminta Oleh:** {2} "
+stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ **Durasi**: {2}\n☎️ **Diminta Oleh:** {3}"
 
 # Tombol Sebaris
 
 #Tombol Umum
-CLOSE_BUTTON : "⚙️ Close"
+CLOSE_BUTTON : "🗑"
 CLOSEMENU_BUTTON : "❓ Tutup Menu"
-BACK_BUTTON : "⬅ Kembali"
+BACK_BUTTON : "«"
 UNBAN_BUTTON : "🗑 Unban Asisten"
 
 #Lirik
 L_B_1 : "❓ Periksa Lyrics"
 
 # Awal
-S_B_1 : "🗒 Perintah"
+S_B_1 : "📋 Perintah"
 S_B_2 : "🔧 Pengaturan"
-S_B_3 : "Grup ☎️"
-S_B_4 : "☎️ Channel"
+S_B_3 : "Grup 🏠"
+S_B_4 : "🏡 Channel"
 S_B_5 : "✚ Add saya ke Grup Anda"
 S_B_6 : "Support 🚨"
 S_B_7 : "👑 Pemilik Bot"
 S_B_8 : "🧰 Perintah"
 
 #Membantu
-H_B_1 : "Perintah Admin"
-H_B_2 : "Mainkan Perintah"
-H_B_3 : "Perintah Bot"
-H_B_4 : "Perintah Ekstra"
-H_B_5 : "⚙️ Close"
-H_B_6 : "Perintah SudoUser"
-H_B_7 : "Printah Manage"
-H_B_8 : "Support Team"
+H_B_1 : "Admin"
+H_B_2 : "Perintah"
+H_B_3 : "Bot"
+H_B_4 : "Ekstra"
+H_B_5 : "🗑"
+H_B_6 : "Sudos"
+H_B_7 : "Tools"
+H_B_8 : "Team"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -278,9 +278,9 @@ PM_B_2 : "Markup Sebaris"
 PM_B_3 : "ChannelPlay"
 
 #Bermain
-P_B_1 : "🎧 Putar Audio"
-P_B_2 : "📀 Putar Video"
-P_B_3 : "🎵 Mulai Streaming"
+P_B_1 : "Audio"
+P_B_2 : "Video"
+P_B_3 : "Streaming"
 P_B_4 : "❓ Putar Playlist"
 
 #Daftar Putar
