@@ -81,15 +81,15 @@ admin_34 : "Gagal mencari seek saat ini."
 
 # Awal
 start_1 : "Terima kasih telah menerima saya di {0}.\n{1} masih hidup.\n\nUntuk bantuan atau bantuan apa pun, periksa grup dan saluran dukungan kami."
-start_2 : "Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya ke group kamu."
+start_2 : "Hai, saya adalah {0}.\n\nbot manage music untuk grup dan saluran telegram dengan beberapa fitur yang berguna. seperti Youtube, Spotify, Resso, AppleMusic, Soundcloud dll.\n\ntambahkan saya ke saluran kamu, ketik help untuk melihat bantuan!"
 start_3 : "Selamat datang di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja (sampai diminta).\n\nNama Pengguna Asisten:- @{1}\nID Asisten:- {2} "
-start_4 : "Pemilik {0}[{1}] baru saja bergabung dengan obrolan Anda."
-start_5 : "Anggota Pengguna Sudo {0}[{1}] baru saja bergabung dengan obrolan Anda."
+start_4 : "Pemilik saya {1} baru saja bergabung dengan obrolan Anda."
+start_5 : "Anggota Pengguna Sudo {1} baru saja bergabung dengan obrolan Anda."
 start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **grup** Anda menjadi **grup super** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat grup super?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat** sekali."
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam daftar hitam oleh Bot. Silakan minta SudoUser untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "**Bantuan Perintah** semua perintah bot ada dibawah ini, jika masih butuh bantuan silahkan hubungi developer saya @arlozayden , atau bisa langsung cek ke grup atau saluran kami @JooxSupport"
+help_1 : "**Bantuan Perintah** semua perintah bot ada dibawah ini, jika masih butuh bantuan silahkan hubungi developer saya, atau bisa langsung cek di grup atau saluran kami"
 help_2 : "Bantuan"
 
 
