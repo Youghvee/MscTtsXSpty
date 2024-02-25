@@ -161,33 +161,25 @@ HELP_5 = """🔰**<u>TAMBAH & HAPUS PENGGUNA SUDO :</u>**
 **Contoh:** `/broadcast -user -assistant -pin Hello Testing`
 
 """
-HELP_7 = """<u>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs:</u>
+HELP_7 = """✅<u>**Fitur Baru:**</u>
 
-/alive : ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴄᴋ ᴀʟᴇxᴀ ᴍᴜsɪᴄ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ
-/id : ᴛᴏ ᴄʜᴇᴋ ᴜsᴇʀ ᴀɴᴅ ᴄʜᴀᴛ ɪᴅ
-/gcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ`
-/verify : ᴠᴇʀɪꜰʏ ʏᴏᴜʀsᴇʟꜰ ᴀᴛ ᴅᴀᴛᴀʙᴀsᴇ
-"""
-HELP_8 = """<u>ꜰᴇᴀᴛᴜʀᴇ ꜰᴏʀ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ:</u>
+/alive : Sekarang Anda dapat memeriksa bot musik masih hidup atau tidak
+/Id : Untuk memeriksa pengguna dan id obrolan 
+/gcast -user -assistant -pin menguji siaran 
+/verify : Verifikasikan diri kamu agar bisa menjalankan musik"""
 
-ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴍᴏɴᴛʜʟʏ ᴀɴᴅ ᴡᴇᴇᴋʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ꜰʀᴏᴍ ᴜs. ᴡᴇ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ 3 ʙʀᴏᴀᴅᴄᴀsᴛ ꜰᴏʀ ᴡᴇᴇᴋʟʏ ᴀɴᴅ 14 ʙʀᴏᴀᴅᴄᴀsᴛ ꜰᴏʀ ᴍᴏɴᴛʜʟʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ sᴇɴᴅɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀꜰᴛᴇʀ ᴛᴡᴏ ᴅᴀʏs.
+HELP_8 = """✅<u>**Fitur sub siaran:**</u>
 
-ᴏɴʟʏ ᴏᴡɴᴇʀ
-/addweekly [ᴜsᴇʀ ɪᴅ] : ᴀᴅᴅ ᴜsᴇʀ ᴛᴏ ᴡᴇᴇᴋʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.
-/addmonthly [ᴜsᴇʀ ɪᴅ] : ᴀᴅᴅ ᴜsᴇʀ ᴛᴏ ᴍᴏɴᴛʜʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.  
-/removesub [ᴜsᴇʀ ɪᴅ] : ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ ꜰʀᴏᴍ ʙʀᴏᴀᴅᴄᴀsᴛ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.
-/checksubscription [ᴜsᴇʀ ɪᴅ] : ᴄʜᴇᴋ ᴜsᴇʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs ᴀɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ.
-/substats : ᴄʜᴇᴄᴋ ᴛᴏᴛᴀʟ ɴᴜᴍʙᴇʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ᴛʜᴇɪʀ ɪᴅs ᴀɴᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴛʏᴘᴇ ᴀʟᴏɴɢ ᴡɪᴛʜ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜᴛ.
-/subscription_alert : ᴛᴏ sᴇɴᴅ ᴀʟᴇʀᴛ ᴍᴇssᴀɢᴇ ᴛᴏ sᴜʙsᴄʀɪʙᴇʀ ᴡɪᴛʜ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs  ᴀʟᴏɴɢ ᴡɪᴛʜ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜᴛ.
+Only owner:
 
-ᴀɴʏᴏɴᴇ ᴄᴀɴ ᴜsᴇ
-/mysubscription : ʏᴏᴜ ᴄᴀɴ ᴄʜᴇᴋ ʏᴏᴜʀ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴡɪᴛʜ ʀᴇᴍᴀɪɴɪɴɢ ᴅᴀʏs ᴀɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴜɴᴛ.
-/paidbroadcast : sᴇɴᴅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜsᴇʀ ᴀɴᴅ ɢʀᴏᴜᴘs ᴀᴛ ᴀ ᴛɪᴍᴇ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀ ᴀᴄᴛɪᴠᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ.
-ᴘᴏᴡʀᴇᴅ 
-<u>Thank you for your help, greetings team: </u>
+/addweekly [user id] : Tambahkan pengguna ke siaran bulanan
+/addmonthly [user id] : Tambahkan Siaran bulanan pengguna 
+/removesub : Hapus pengguna dari daftar siaran
+
+<n>**Team support:**</n>
 1. @arlozayden
 2. @Usern4meDoesNotExist404
 3. @Usern4meDoestExist404
 4. @Hfivxssub
-Channels : @TeamAllBots 
-"""
+
+terimakasih sudah membantu mengembangkan bot ini, jika ada masalah silahkan laporkan ke username diatas."""
