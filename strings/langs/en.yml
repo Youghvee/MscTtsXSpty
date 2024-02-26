@@ -264,13 +264,15 @@ S_B_8 : "🧰 Perintah"
 
 #Membantu
 H_B_1 : "Admin"
-H_B_2 : "Perintah"
+H_B_2 : "Auth"
 H_B_3 : "Bot"
-H_B_4 : "Ekstra"
+H_B_4 : "Ban"
 H_B_5 : "🗑"
-H_B_6 : "Sudos"
-H_B_7 : "Tools"
-H_B_8 : "Team"
+H_B_6 : "Extra"
+H_B_7 : "Stats"
+H_B_8 : "Sudo"
+H_B_9 : "Play"
+H_B_10 : "Broadcast"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
