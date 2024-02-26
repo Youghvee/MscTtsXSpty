@@ -211,8 +211,8 @@ lyrics_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "❏ ╰☞ 𝗣𝗢𝗡𝗚**\n`⚡{1} ms`\n\n<b><u> System Stats:</u></b>\nUptime : {2} \nRam : {4} \nCpu : {4} \nDisk : {3}"
+ping_1 : "<u>Ping!!!</u>"
+ping_2 : "❏ ╰☞ 𝗣𝗢𝗡𝗚 ⚡ {1} \n\n📊 <u>Music active</u>\n📊 <u>System Stats:</u>\n\nTIME: {2} \nCPU: {4} \nRAM: {4} \nDISK: {3}"
 
 
 # Lagu
