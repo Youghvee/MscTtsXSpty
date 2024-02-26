@@ -21,8 +21,8 @@ def help_pannel(_, START: Union[bool, int] = None):
     first = [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data=f"close")]
     second = [
         InlineKeyboardButton(
-            text=_["S_B_1"],
-            url=f"https://t.me/{app.username}?start=help",
+            text=_["BACK_BUTTON"],
+            callback_data="settingsback_helper",
         ),
         InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data=f"close"),
     ]
