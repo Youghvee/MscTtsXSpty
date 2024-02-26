@@ -14,13 +14,14 @@ HELP_1 = """✅**<u>Perintah Admin:</u>**
 /skip atau /cskip- Lewati musik yang sedang diputar.
 /stop atau /cstop- Menghentikan pemutaran musik.
 /shuffle atau /cshuffle- Secara acak mengacak daftar putar yang antri.
-
+"""
 
 HELP_2 = """✅<u>**Perintah Auth:**</u>
 
 /auth [Nama Pengguna] - Tambahkan pengguna ke DAFTAR AUTH grup.
 /unauth [Nama Pengguna] - Menghapus pengguna dari DAFTAR AUTH grup.
-/authusers - Periksa DAFTAR AUTH grup."""
+/authusers - Periksa DAFTAR AUTH grup.
+"""
 
 HELP_3 = """✅<u>**Perintah Bot:**</u>
 
@@ -28,7 +29,7 @@ HELP_3 = """✅<u>**Perintah Bot:**</u>
 /sudolist - Periksa Pengguna Sudo dari Bot Musik Musikku
 /lyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
 /song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
-/verify : Verifikasikan diri kamu agar bisa menjalankan musik"""
+/verify : Verifikasikan diri kamu agar bisa menjalankan musik
 /restart - Mulai ulang Bot.
 /update - Perbarui Bot.
 /speedtest - Periksa kecepatan server
