@@ -31,8 +31,8 @@ def setting_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="Sᴜᴩᴩᴏʀᴛ",
-                url="https://t.me/JooxSupport",
+                text="Support",
+                url="https://t.me/TeamAllBots",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
