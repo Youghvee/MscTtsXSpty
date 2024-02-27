@@ -13,7 +13,7 @@ async def here_join_channel(bot: Client, msg: Message):
         try:
             await bot.get_chat_member(HERE_JOIN, msg.from_user.id)
         except UserNotParticipant:
-            if MUST_JOIN.isalpha():
+            if HERE_JOIN.isalpha():
                 link = "https://t.me/" + HERE_JOIN
             else:
                 chat_info = await bot.get_chat(HERE_JOIN)
