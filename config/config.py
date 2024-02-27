@@ -75,10 +75,6 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 )  # Remember to give value in Seconds
 
 MUST_JOIN = getenv("MUST_JOIN") or int(getenv("MUST_JOIN"))
-
-# masukan group yg ingin melakukan sub paksa 
-
-HERE_JOIN = getenv("HERE_JOIN") or int(getenv("HERE_JOIN"))
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
