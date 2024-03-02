@@ -83,7 +83,6 @@ admin_34 : "Gagal mencari seek saat ini."
 
 # Awal
 start_1 : "Terima kasih telah menerima saya di {0}.\n{1} masih hidup.\n\nUntuk bantuan atau bantuan apa pun, periksa grup dan saluran dukungan kami."
-start_2 : "Hai, saya adalah {0}.\n\nbot manage music untuk grup dan saluran telegram dengan beberapa fitur yang berguna. seperti Youtube, Spotify, Resso, AppleMusic, Soundcloud dll.\n\ntambahkan saya ke saluran kamu, ketik /help untuk melihat bantuan"
 start_3 : "Selamat datang di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja (sampai diminta).\n\nNama Pengguna Asisten:- @{1}\nID Asisten:- {2} "
 start_4 : "Pemilik saya {1} baru saja bergabung dengan obrolan Anda."
 start_5 : "Anggota Pengguna Sudo {1} baru saja bergabung dengan obrolan Anda."
@@ -92,7 +91,7 @@ start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam dafta
 
 # Help
 help_1 : "**Bantuan Perintah** semua perintah bot ada dibawah ini, jika masih butuh bantuan silahkan hubungi developer saya, atau bisa langsung cek di grup atau saluran kami"
-help_2 : "Bantuan"
+
 
 
 # Pengaturan
