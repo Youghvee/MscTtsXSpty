@@ -60,7 +60,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="Support", url=f"https://t.me/SpotifyStreamMusic"),
+            InlineKeyboardButton(text="Support", url=f"https://t.me/MusicStreamMp3"),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"
@@ -91,7 +91,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="Support", url=f"https://t.me/SpotifyStreamMusic"),
+            InlineKeyboardButton(text="Support", url=f"https://t.me/MusicStreamMp3"),
         ],
     ]
     return buttons
