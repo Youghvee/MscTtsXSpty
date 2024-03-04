@@ -1,13 +1,4 @@
-# Copyright (C) 2024 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >
-# Subscribe On YT < Jankari Ki Duniya >. All rights reserved. © Alexa © Yukki.
 
-""""
-TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2024 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want or you can collabe if you have new ideas.
-"""
 
 
 import asyncio
@@ -81,7 +72,7 @@ async def clean_mode(client, update, users, chats):
 async def braodcast_message(client, message, _):
     if message.from_user.id not in OWNER_ID:
         return await message.reply_text(
-            "» **😁 ʜᴇʜᴇʜᴇ ᴏɴʟʏ ᴍʏ ᴏᴡɴᴇʀ ᴄᴀɴ ʙʀᴏᴀᴅᴄᴀsᴛ**\n» 🤫  ᴊᴏɪɴ @Alexa_Help ғᴏʀ ᴘʀᴏᴍᴏᴛɪᴏɴ"
+            "» **Hanya developer dan sudo yang bisa menggunakan perintah ini**\n silahkan hubungi developer jika anda pengguna sudo @Usern4meDoesNotExist404"
         )
     global IS_BROADCASTING
     if message.reply_to_message:
