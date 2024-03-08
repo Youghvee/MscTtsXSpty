@@ -13,7 +13,7 @@ API_ID = int(getenv("API_ID", "12320311"))
 API_HASH = getenv("API_HASH", "264db47292be59754aa857da32d780f4")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7083964288:AAFvwyw81uHEl6FRc9C616LG6PNpyF-ZlZY")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://evanescants:vooyage4636@cluster0.4leehdx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -29,7 +29,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002009684047"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Apple Music")
@@ -123,7 +123,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
-STRING1 = getenv("STRING_SESSION", "BQA81WDrVydDu9DdcOvEPsLu9qiztDJwKnFS3dw99oWNa5iefXtHMd_h2lb54h3IbU7un9cBMdoVcjozWmkJK_nR4LZVklO9GPAJAP3RKXYPz7R4yxrDNezwMxd7d-5zzme6QKvxrOJ2yFr9h7H5GjRdYcHoWiKqvH3Mgchi1HQ1WZGZeS_RCceVwcChZUIa6f6snn8-4LRGZrWv8PEvYPpSuOhlDJi12YhIhYyk9GeSN8X4qBEVoYOBmScs1K_Q__cmANKIPq4OJ6Ab0Md-3NAs5jU8rAhs-KIGBx7d45dX3oReHmsWtDFYRPWLaTUmUAVY48IovUUDwIuA3tOXxtzZauSVGgA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
