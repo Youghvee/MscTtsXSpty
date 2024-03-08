@@ -34,9 +34,6 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002009684047"))
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Apple Music")
 
-# string v1
-
-STRING_SESSION = getenv("STRING_SESSION", "BQA81WDrVydDu9DdcOvEPsLu9qiztDJwKnFS3dw99oWNa5iefXtHMd_h2lb54h3IbU7un9cBMdoVcjozWmkJK_nR4LZVklO9GPAJAP3RKXYPz7R4yxrDNezwMxd7d-5zzme6QKvxrOJ2yFr9h7H5GjRdYcHoWiKqvH3Mgchi1HQ1WZGZeS_RCceVwcChZUIa6f6snn8-4LRGZrWv8PEvYPpSuOhlDJi12YhIhYyk9GeSN8X4qBEVoYOBmScs1K_Q__cmANKIPq4OJ6Ab0Md-3NAs5jU8rAhs-KIGBx7d45dX3oReHmsWtDFYRPWLaTUmUAVY48IovUUDwIuA3tOXxtzZauSVGgA")
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "940232666").split())
@@ -126,7 +123,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @Stringdurhakabot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQA81WDrVydDu9DdcOvEPsLu9qiztDJwKnFS3dw99oWNa5iefXtHMd_h2lb54h3IbU7un9cBMdoVcjozWmkJK_nR4LZVklO9GPAJAP3RKXYPz7R4yxrDNezwMxd7d-5zzme6QKvxrOJ2yFr9h7H5GjRdYcHoWiKqvH3Mgchi1HQ1WZGZeS_RCceVwcChZUIa6f6snn8-4LRGZrWv8PEvYPpSuOhlDJi12YhIhYyk9GeSN8X4qBEVoYOBmScs1K_Q__cmANKIPq4OJ6Ab0Md-3NAs5jU8rAhs-KIGBx7d45dX3oReHmsWtDFYRPWLaTUmUAVY48IovUUDwIuA3tOXxtzZauSVGgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
