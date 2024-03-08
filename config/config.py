@@ -12,7 +12,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "12320311"))
 API_HASH = getenv("API_HASH", "264db47292be59754aa857da32d780f4")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7083964288:AAFvwyw81uHEl6FRc9C616LG6PNpyF-ZlZY")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://evanescants:vooyage4636@cluster0.4leehdx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -30,7 +30,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "940232666").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-BOT_ID = getenv("BOT_ID", "7083964288")
+BOT_ID = getenv("BOT_ID")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -79,7 +79,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQA81WDrVydDu9DdcOvEPsLu9qiztDJwKnFS3dw99oWNa5iefXtHMd_h2lb54h3IbU7un9cBMdoVcjozWmkJK_nR4LZVklO9GPAJAP3RKXYPz7R4yxrDNezwMxd7d-5zzme6QKvxrOJ2yFr9h7H5GjRdYcHoWiKqvH3Mgchi1HQ1WZGZeS_RCceVwcChZUIa6f6snn8-4LRGZrWv8PEvYPpSuOhlDJi12YhIhYyk9GeSN8X4qBEVoYOBmScs1K_Q__cmANKIPq4OJ6Ab0Md-3NAs5jU8rAhs-KIGBx7d45dX3oReHmsWtDFYRPWLaTUmUAVY48IovUUDwIuA3tOXxtzZauSVGgA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
