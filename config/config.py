@@ -34,6 +34,9 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002009684047"))
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Apple Music")
 
+# string v1
+
+STRING_SESSION = getenv("STRING_SESSION", "BQBvnnwFodmq3PYDOFmWdsZSc4w5WOAvj5zlMxDUnH1-z1iVctADltWbcZscGcWTFzaA1aIpcMFcBpxKdNxwAMSgpGnAw_AVjmCcTjUeFM-zmXlAIdxgMbFsuw4Kv3JH8xa5hr_7VfExIk7YiYk0NMbLO9641GRzIc3B7KHzJpP7PJrOUCG_jGEIwofZyg9dX2VHQRJ_Recb8Dr3WG3Jp_GY-jniX9UHtFkWH711ovYBroZveAoGbcMVuOA1VY_sT9aj2x2mLRNY0xaL05kDLW2gWGDIBLcK1pCfAKt-_HUJgoSO3t7OHAtIW83Q9VG3d_soy82yvfwjFT5YN4S1xt5aauSVGgA")
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "940232666").split())
@@ -74,7 +77,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "600")
 )  # Remember to give value in Seconds
 
-MUST_JOIN = getenv("MUST_JOIN", "@MusicStreamMp3"))
+MUST_JOIN = getenv("MUST_JOIN", "@MusicStreamMp3")
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
