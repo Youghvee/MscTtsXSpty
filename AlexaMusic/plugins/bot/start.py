@@ -280,10 +280,10 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]))
 async def alive(client, message: Message):
     await message.reply_photo(
-        photo=f"https://mallucampaign.in/images/img_1708035680.jpg",
+        photo=f"https://t.me/MusicStreamSupport",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\nᴛʜᴀɴᴋs ᴛᴏ ᴛᴇᴀᴍ ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┗━━━━━━━━━━━━━━━━━┛\n\nɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Usern4meDoesNotExist404) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Channels", url=f"https://t.me/SpotifyStreamMusic/64")]]
+            [[InlineKeyboardButton("Channels", url=f"https://t.me/MusicStreamMp3")]]
         ),
     )
 
@@ -297,9 +297,9 @@ async def verify(client, message: Message):
         return
     await add_served_user(message.from_user.id)
     await message.reply_photo(
-        photo=f"https://mallucampaign.in/images/img_1708035680.jpg",
+        photo=f"https://t.me/MusicStreamSupport",
         caption=f"""━━━━━━━━━━━━━━━━━\nSelamat sekarang kamu sudah menjadi bagian dari bot kami, silahkan play music/vidio kamu kembali!""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Support", url=f"https://t.me/SpotifyStreamMusic/64")]]
+            [[InlineKeyboardButton("Support", url=f"https://t.me/MusicStreamMp3")]]
         ),
     )
